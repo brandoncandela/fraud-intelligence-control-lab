@@ -1,0 +1,720 @@
+{
+  "generated_at": "2026-10-06T20:28:45.148441Z",
+  "method": "Deterministic synthetic data; rules and labels are educational examples.",
+  "accounts": [
+    {
+      "account_id": "A001",
+      "customer_name": "Synthetic Customer 001",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3621.97,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A002",
+      "customer_name": "Synthetic Customer 002",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3508.41,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A003",
+      "customer_name": "Synthetic Customer 003",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 2920.61,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 14
+    },
+    {
+      "account_id": "A004",
+      "customer_name": "Synthetic Customer 004",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3688.32,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A005",
+      "customer_name": "Synthetic Customer 005",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3389.74,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A006",
+      "customer_name": "Synthetic Customer 006",
+      "segment": "retail",
+      "outcome": "review_worthy",
+      "shared_device_peers": 4,
+      "distinct_in_senders_24h": 8,
+      "rapid_outbound_amount": 9381.87,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 99
+    },
+    {
+      "account_id": "A007",
+      "customer_name": "Synthetic Customer 007",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3983.34,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A008",
+      "customer_name": "Synthetic Customer 008",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 2738.44,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 13
+    },
+    {
+      "account_id": "A009",
+      "customer_name": "Synthetic Customer 009",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3407.08,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A010",
+      "customer_name": "Synthetic Customer 010",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3716.9,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A011",
+      "customer_name": "Synthetic Customer 011",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 4532.91,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 17
+    },
+    {
+      "account_id": "A012",
+      "customer_name": "Synthetic Customer 012",
+      "segment": "marketplace",
+      "outcome": "review_worthy",
+      "shared_device_peers": 4,
+      "distinct_in_senders_24h": 8,
+      "rapid_outbound_amount": 9479.88,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 99
+    },
+    {
+      "account_id": "A013",
+      "customer_name": "Synthetic Customer 013",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3714.62,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A014",
+      "customer_name": "Synthetic Customer 014",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3799.19,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A015",
+      "customer_name": "Synthetic Customer 015",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 8,
+      "rapid_outbound_amount": 8007.13,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 48
+    },
+    {
+      "account_id": "A016",
+      "customer_name": "Synthetic Customer 016",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3332.84,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A017",
+      "customer_name": "Synthetic Customer 017",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 4141.9,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A018",
+      "customer_name": "Synthetic Customer 018",
+      "segment": "retail",
+      "outcome": "review_worthy",
+      "shared_device_peers": 4,
+      "distinct_in_senders_24h": 8,
+      "rapid_outbound_amount": 10715.45,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 100
+    },
+    {
+      "account_id": "A019",
+      "customer_name": "Synthetic Customer 019",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3469.2,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A020",
+      "customer_name": "Synthetic Customer 020",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3970.35,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A021",
+      "customer_name": "Synthetic Customer 021",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 2980.37,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 14
+    },
+    {
+      "account_id": "A022",
+      "customer_name": "Synthetic Customer 022",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3736.13,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A023",
+      "customer_name": "Synthetic Customer 023",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 4524.32,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 17
+    },
+    {
+      "account_id": "A024",
+      "customer_name": "Synthetic Customer 024",
+      "segment": "marketplace",
+      "outcome": "review_worthy",
+      "shared_device_peers": 4,
+      "distinct_in_senders_24h": 8,
+      "rapid_outbound_amount": 10051.6,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 100
+    },
+    {
+      "account_id": "A025",
+      "customer_name": "Synthetic Customer 025",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3570.79,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A026",
+      "customer_name": "Synthetic Customer 026",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3845.38,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A027",
+      "customer_name": "Synthetic Customer 027",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3785.43,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A028",
+      "customer_name": "Synthetic Customer 028",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3768.45,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A029",
+      "customer_name": "Synthetic Customer 029",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 4759.6,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 18
+    },
+    {
+      "account_id": "A030",
+      "customer_name": "Synthetic Customer 030",
+      "segment": "retail",
+      "outcome": "review_worthy",
+      "shared_device_peers": 4,
+      "distinct_in_senders_24h": 8,
+      "rapid_outbound_amount": 10069.24,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 100
+    },
+    {
+      "account_id": "A031",
+      "customer_name": "Synthetic Customer 031",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3527.31,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A032",
+      "customer_name": "Synthetic Customer 032",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3382.82,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A033",
+      "customer_name": "Synthetic Customer 033",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 1,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3580.59,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 27
+    },
+    {
+      "account_id": "A034",
+      "customer_name": "Synthetic Customer 034",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 1,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 2858.1,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 26
+    },
+    {
+      "account_id": "A035",
+      "customer_name": "Synthetic Customer 035",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3820.07,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A036",
+      "customer_name": "Synthetic Customer 036",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3670.08,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A037",
+      "customer_name": "Synthetic Customer 037",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3201.67,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 14
+    },
+    {
+      "account_id": "A038",
+      "customer_name": "Synthetic Customer 038",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 4551.2,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 17
+    },
+    {
+      "account_id": "A039",
+      "customer_name": "Synthetic Customer 039",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3764.74,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A040",
+      "customer_name": "Synthetic Customer 040",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 4021.82,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A041",
+      "customer_name": "Synthetic Customer 041",
+      "segment": "creator",
+      "outcome": "review_worthy",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 4067.85,
+      "new_foreign_device_amount": 8400.0,
+      "risk_score": 40
+    },
+    {
+      "account_id": "A042",
+      "customer_name": "Synthetic Customer 042",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3792.77,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A043",
+      "customer_name": "Synthetic Customer 043",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 4194.0,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A044",
+      "customer_name": "Synthetic Customer 044",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3310.05,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A045",
+      "customer_name": "Synthetic Customer 045",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3125.02,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 14
+    },
+    {
+      "account_id": "A046",
+      "customer_name": "Synthetic Customer 046",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3873.86,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A047",
+      "customer_name": "Synthetic Customer 047",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3986.89,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A048",
+      "customer_name": "Synthetic Customer 048",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3266.73,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A049",
+      "customer_name": "Synthetic Customer 049",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3256.26,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A050",
+      "customer_name": "Synthetic Customer 050",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3759.72,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A051",
+      "customer_name": "Synthetic Customer 051",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3610.02,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A052",
+      "customer_name": "Synthetic Customer 052",
+      "segment": "marketplace",
+      "outcome": "review_worthy",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3578.62,
+      "new_foreign_device_amount": 10500.0,
+      "risk_score": 45
+    },
+    {
+      "account_id": "A053",
+      "customer_name": "Synthetic Customer 053",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3712.17,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A054",
+      "customer_name": "Synthetic Customer 054",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3126.81,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 14
+    },
+    {
+      "account_id": "A055",
+      "customer_name": "Synthetic Customer 055",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 2848.49,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 14
+    },
+    {
+      "account_id": "A056",
+      "customer_name": "Synthetic Customer 056",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 4053.94,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A057",
+      "customer_name": "Synthetic Customer 057",
+      "segment": "creator",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3297.52,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A058",
+      "customer_name": "Synthetic Customer 058",
+      "segment": "retail",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3592.89,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 15
+    },
+    {
+      "account_id": "A059",
+      "customer_name": "Synthetic Customer 059",
+      "segment": "professional_services",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 3799.99,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 16
+    },
+    {
+      "account_id": "A060",
+      "customer_name": "Synthetic Customer 060",
+      "segment": "marketplace",
+      "outcome": "benign",
+      "shared_device_peers": 0,
+      "distinct_in_senders_24h": 2,
+      "rapid_outbound_amount": 2915.03,
+      "new_foreign_device_amount": 0.0,
+      "risk_score": 14
+    }
+  ],
+  "weeks": [
+    {
+      "week": "W1",
+      "transactions": 840,
+      "alert_rate": 2.1,
+      "data_quality": 99.8
+    },
+    {
+      "week": "W2",
+      "transactions": 840,
+      "alert_rate": 2.5,
+      "data_quality": 99.8
+    },
+    {
+      "week": "W3",
+      "transactions": 880,
+      "alert_rate": 2.9,
+      "data_quality": 99.8
+    },
+    {
+      "week": "W4",
+      "transactions": 851,
+      "alert_rate": 3.3,
+      "data_quality": 98.9
+    }
+  ],
+  "links": [
+    {
+      "source": "A006",
+      "target": "D900"
+    },
+    {
+      "source": "A012",
+      "target": "D900"
+    },
+    {
+      "source": "A018",
+      "target": "D900"
+    },
+    {
+      "source": "A024",
+      "target": "D900"
+    },
+    {
+      "source": "A030",
+      "target": "D900"
+    }
+  ],
+  "totals": {
+    "accounts": 60,
+    "transactions": 3771,
+    "devices": 64,
+    "review_worthy": 7
+  }
+}

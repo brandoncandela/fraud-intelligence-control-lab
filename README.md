@@ -1,5 +1,11 @@
 # Fraud Intelligence & Control Effectiveness Lab
 
+![Fraud Intelligence & Control Effectiveness Lab](docs/social-preview.jpg)
+
+**[▶ Open the live demo](https://brandoncandela.github.io/fraud-intelligence-control-lab/)** · [Portfolio](https://brandoncandela.github.io/) · [LinkedIn](https://www.linkedin.com/in/brandon-candela/) · Built by Brandon Candela, CAMS
+
+> **What this shows:** Python and SQL feature engineering, control tuning with precision/recall tradeoffs, link analysis and an executive-ready recommendation.
+
 An independent portfolio case by [Brandon Candela](https://brandoncandela.github.io/) using **Python, SQL, graph/link analysis and control-effectiveness metrics** to investigate synthetic fraud behavior.
 
 ## The business problem

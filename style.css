@@ -19,3 +19,17 @@ main{max-width:1440px;margin:0 auto;padding:0 max(5vw,24px) 72px}.hero{display:g
 
 .corridor.two{grid-template-columns:repeat(2,1fr)}
 .methodology-content pre{white-space:pre-wrap;overflow-wrap:anywhere}
+
+/* Motion (classes are added by motion.js, so the page is fully visible without JavaScript) */
+.mo { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
+.mo.mo-in { opacity: 1; transform: none; }
+.mo-stagger > * { animation: mo-rise .45s ease both; animation-delay: calc(var(--i, 0) * 70ms); }
+@keyframes mo-rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+button { transition: background-color .2s, border-color .2s, color .2s, box-shadow .2s, transform .12s; }
+button:active:not(:disabled) { transform: translateY(1px); }
+tbody tr { transition: background-color .2s; }
+@media (prefers-reduced-motion: reduce) {
+  .mo { opacity: 1; transform: none; transition: none; }
+  .mo-stagger > * { animation: none; }
+  button, tbody tr { transition: none; }
+}

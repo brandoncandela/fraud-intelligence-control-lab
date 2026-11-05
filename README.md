@@ -6,7 +6,7 @@
 
 > **What this shows:** Python and SQL feature engineering, control tuning with precision/recall tradeoffs, link analysis and an executive-ready recommendation.
 
-An independent portfolio case by [Brandon Candela](https://brandoncandela.github.io/) using **Python, SQL, graph/link analysis and control-effectiveness metrics** to investigate synthetic fraud behavior.
+A fraud investigation case by [Brandon Candela](https://brandoncandela.github.io/) using **Python, SQL, graph/link analysis and control-effectiveness metrics** to investigate synthetic fraud behavior.
 
 ## The business problem
 
@@ -41,6 +41,6 @@ Then open `http://localhost:8000`.
 
 ## Scope and limitations
 
-All people, devices, transactions and outcomes are fictional. The scoring weights are illustrative and are not calibrated probabilities, proprietary logic or production controls. Shared devices, timing and concentration are leads rather than proof. Any real implementation would require mature outcome data, privacy and fairness review, segment testing, monitoring, governance and documented change approval.
+All people, devices, transactions and outcomes are made up. The scoring weights are illustrative, not calibrated probabilities. A shared device, fast timing or concentrated activity is a lead to check, not proof of fraud. Putting a control like this into production would also need real outcome data, fairness and privacy review, ongoing monitoring and change approval.
 
-Built with AI-assisted development. The analytical assumptions, evidence boundaries and intended business use are documented so reviewers can challenge them.
+Built with AI coding tools.

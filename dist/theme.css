@@ -1,0 +1,92 @@
+/* White and blue portfolio look for this lab, with an indigo accent of its own. Loaded after style.css and apple.css. */
+:root {
+  --navy: #1d1d1f; --navy-2: #2c2c30; --ink: #1d1d1f; --paper: #fbfcff;
+  --line: rgb(29 29 31 / .09); --line-dark: rgb(29 29 31 / .2); --muted: #55555d;
+  --teal: #4f46e5; --teal-dark: #3730a3; --mint: #6366f1; --mint-soft: #eef0ff;
+  --amber: #b26a00; --amber-soft: #fff5e3; --red: #c4302b; --blue: #4f46e5;
+  --glass: rgb(255 255 255 / .74);
+  --shadow: 0 1px 0 rgb(255 255 255 / .8) inset, 0 12px 32px rgb(30 58 138 / .07);
+  --mono: "Inter", system-ui, sans-serif;
+}
+body { font-family: "Inter", system-ui, sans-serif; }
+
+/* Frosted header */
+.app-header { background: rgb(251 252 255 / .72); color: var(--ink); border-bottom: 1px solid var(--line); backdrop-filter: blur(18px) saturate(150%); -webkit-backdrop-filter: blur(18px) saturate(150%); position: sticky; top: 0; z-index: 20; height: 60px; }
+.brand { color: var(--ink); }
+.brand-mark { border: 0; border-radius: 10px; background: linear-gradient(135deg, #8b93ff, #4338ca); color: #fff; }
+nav a { color: var(--muted); }
+nav a:hover { color: var(--ink); }
+nav .portfolio-link { color: var(--ink); border-left-color: var(--line); }
+
+/* Hero */
+.hero { min-height: 0; padding: 64px 0 48px; gap: 5vw; grid-template-columns: minmax(0, 1.25fr) minmax(320px, .85fr); }
+.hero-side { display: grid; gap: 16px; min-width: 0; }
+.hero-side .ap-art { max-width: 100%; }
+h1 { font-weight: 800; letter-spacing: -.035em; }
+.case-context, .section-label, .step { color: var(--teal); font-family: "Inter", sans-serif; letter-spacing: .04em; }
+.button { border-radius: 999px; font-weight: 600; transition: background .2s, transform .15s; }
+.button-primary { background: #1d1d1f; border-color: #1d1d1f; }
+.button-primary:hover { background: #000; transform: translateY(-1px); }
+.button-secondary { background: rgb(29 29 31 / .06); border-color: transparent; }
+.button-secondary:hover { background: rgb(29 29 31 / .1); }
+
+/* Navy panels become frosted cards */
+.case-file, .decision-corridor, .decision-panel, .threshold-control, .surface, .kpis {
+  background: var(--glass); color: var(--ink); border: 1px solid rgb(255 255 255 / .7); border-radius: 18px;
+  box-shadow: var(--shadow); backdrop-filter: blur(18px) saturate(150%); -webkit-backdrop-filter: blur(18px) saturate(150%);
+}
+.kpis { overflow: hidden; }
+.threshold-control { border-top: 0; }
+.case-file-head { border-bottom-color: var(--line); color: var(--muted); font-family: "Inter", sans-serif; }
+.status-dot { color: var(--teal); }
+.status-dot:before { background: var(--teal); box-shadow: 0 0 0 4px rgb(79 70 229 / .12); }
+.case-file dl div { border-color: var(--line); }
+.case-file dt { color: var(--muted); }
+.case-file dd { font-family: "Inter", sans-serif; font-weight: 700; color: var(--ink); }
+.case-file > p { color: var(--muted); }
+.decision-corridor h2, .decision-form h2 { color: var(--ink); }
+.decision-corridor .section-label, .decision-form .section-label, .plan .section-label { color: var(--teal); }
+.corridor-head > p { color: var(--muted); }
+.corridor { background: var(--line); border-color: var(--line); border-radius: 14px; overflow: hidden; }
+.corridor-card { background: rgb(255 255 255 / .9); }
+.corridor-card.current { background: var(--mint-soft); box-shadow: inset 0 3px 0 var(--teal); }
+.corridor-card .setting, .corridor-card p { color: var(--muted); }
+.corridor-card.current .setting { color: var(--teal-dark); }
+.corridor-card strong, .kpi strong, .threshold-heading output { font-family: "Inter", sans-serif; letter-spacing: -.03em; }
+.threshold-heading output { color: var(--teal); }
+
+.workflow { border: 0; gap: 8px; font-family: "Inter", sans-serif; text-transform: none; font-size: 13px; }
+.workflow span { border: 0; border-radius: 999px; background: rgb(29 29 31 / .05); text-align: center; padding: 10px 14px; }
+.workflow .active { background: #1d1d1f; color: #fff; }
+
+.count { border-radius: 999px; font-family: "Inter", sans-serif; text-transform: none; }
+.score { border-radius: 999px; font-family: "Inter", sans-serif; }
+th { background: transparent; font-weight: 500; color: #86868b; }
+tbody tr:hover { background: rgb(79 70 229 / .05); }
+.bar { border-radius: 99px; background: rgb(29 29 31 / .07); }
+.bar i { border-radius: 99px; background: linear-gradient(90deg, #8b93ff, #4f46e5); }
+.nodes button { border-radius: 12px; border-color: rgb(79 70 229 / .25); font-family: "Inter", sans-serif; }
+.account-detail { background: var(--mint-soft); border-top: 0; border-radius: 14px; }
+.device { font-family: "Inter", sans-serif; }
+
+/* Decision panel */
+.decision-panel { overflow: hidden; }
+.decision-form > p:not(.section-label):not(#status) { color: var(--muted); }
+.decision-form textarea { border: 1px solid rgb(29 29 31 / .14); border-radius: 12px; background: #fff; }
+.decision-form .button-primary { background: #1d1d1f; border-color: #1d1d1f; color: #fff; }
+.decision-form .button-secondary { color: var(--ink); border-color: transparent; }
+.decision-form .button-secondary:hover { background: rgb(29 29 31 / .1); }
+.decision-form .text-link { color: var(--teal); }
+#status { color: var(--red); }
+.plan { background: rgb(79 70 229 / .05); }
+.plan li { border-top-color: var(--line); color: var(--muted); }
+.plan li span { color: var(--teal); font-family: "Inter", sans-serif; }
+
+footer { background: transparent; border-top: 1px solid var(--line); color: #86868b; }
+.methodology-content pre { background: #f5f8ff; color: #1e3a8a; border-radius: 14px; }
+.method-note { border-radius: 14px; }
+
+@media (max-width: 760px) {
+  .hero { grid-template-columns: minmax(0, 1fr); }
+  .workflow { grid-template-columns: 1fr 1fr; }
+}

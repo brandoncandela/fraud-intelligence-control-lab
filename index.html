@@ -6,7 +6,7 @@
   <title>Fraud Intelligence & Control Lab | Brandon Candela</title>
   <meta name="description" content="An interactive fraud control strategy work sample using Python, SQL, link analysis and transparent control-effectiveness metrics.">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23091420'/%3E%3Ccircle cx='10' cy='16' r='4' fill='%235ce1c0'/%3E%3Ccircle cx='23' cy='9' r='3' fill='%23ffbf69'/%3E%3Ccircle cx='23' cy='24' r='3' fill='%23f45b69'/%3E%3Cpath d='M13 14l7-4m-7 8l7 5' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="apple.css"><link rel="stylesheet" href="theme.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to analysis</a>
@@ -21,15 +21,15 @@
     <section class="hero" aria-labelledby="page-title">
       <div class="hero-copy">
 
-        <h1 id="page-title">Turn a fraud spike into an operational decision.</h1>
+        <h1 id="page-title" class="ap-gradient">Turn a fraud spike into an operational decision.</h1>
         <p class="lede">Tune a transparent control, test the workload tradeoff, inspect linked behavior and document what should change before the next incident.</p>
         <div class="hero-actions"><a class="button button-primary" href="#control">Open the control review</a><a class="text-link" href="methodology.html">Read the model card <span aria-hidden="true">→</span></a></div>
       </div>
-      <aside class="case-file" aria-label="Case file summary">
+      <div class="hero-side"><img class="ap-art" src="hero-art.svg" width="560" height="440" alt="Illustration: account takeover alerts per day spiking above the control threshold"><aside class="case-file" aria-label="Case file summary">
         <div class="case-file-head"><span>Operating brief</span><span class="status-dot">Ready for review</span></div>
         <dl><div><dt>Population</dt><dd>60 accounts</dd></div><div><dt>Activity</dt><dd>3,771 transactions</dd></div><div><dt>Seeded cases</dt><dd>7 review worthy</dd></div><div><dt>Daily capacity</dt><dd>8 reviews</dd></div></dl>
         <p>Built with Python, SQL, graph analysis and an auditable point score.</p>
-      </aside>
+      </aside></div>
     </section>
     <section class="workflow" aria-label="Analysis workflow"><span class="active">01 Set control</span><span>02 Review queue</span><span>03 Test evidence</span><span>04 Write decision</span></section>
     <section id="control" class="control-console" aria-labelledby="control-title">
@@ -59,5 +59,5 @@
   <footer><p>Independent educational work sample by Brandon Candela</p><p>Synthetic people and transactions · No proprietary employer data or production fraud logic</p></footer>
   <script type="module" src="app.js"></script>
 <script src="motion.js" defer></script>
-</body>
+<script src="apple.js" data-lift=".surface, .kpis, .threshold-control, .case-file"></script></body>
 </html>

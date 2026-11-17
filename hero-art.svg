@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-label="Fraud alert spike crossing a control threshold">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef4ff"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5aa9ff"/><stop offset="1" stop-color="#0066cc"/></linearGradient>
+  <linearGradient id="indigo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b93ff"/><stop offset="1" stop-color="#4338ca"/></linearGradient>
+  <radialGradient id="glowA" cx=".2" cy=".15" r=".6"><stop offset="0" stop-color="#5aa9ff" stop-opacity=".45"/><stop offset="1" stop-color="#5aa9ff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB" cx=".9" cy=".9" r=".6"><stop offset="0" stop-color="#8b93ff" stop-opacity=".4"/><stop offset="1" stop-color="#8b93ff" stop-opacity="0"/></radialGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1e3a8a" flood-opacity=".10"/></filter>
+</defs>
+<style>
+  .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  .flow { stroke-dasharray: 6 10; animation: flow 1.6s linear infinite; }
+  @keyframes pulse { 50% { transform: scale(1.18); opacity: .75; } }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes grow { from { transform: scaleY(0); } }
+  @keyframes fade { from { opacity: 0; } }
+  @keyframes flow { to { stroke-dashoffset: -32; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; stroke-dashoffset: 0 !important; } }
+</style>
+<rect width="560" height="440" rx="28" fill="url(#panel)"/>
+<rect width="560" height="440" rx="28" fill="url(#glowA)"/>
+<rect width="560" height="440" rx="28" fill="url(#glowB)"/>
+<rect x=".5" y=".5" width="559" height="439" rx="27.5" fill="none" stroke="#ffffff" stroke-opacity=".9"/>
+<rect x="28" y="26" width="504" height="388" rx="16" fill="#fff" fill-opacity=".86" stroke="#1d1d1f" stroke-opacity=".06" filter="url(#soft)" /><text x="52" y="64" font-family="Inter, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#1d1d1f" text-anchor="start">Account takeover alerts per day</text><text x="52" y="84" font-family="Inter, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="500" fill="#55555d" text-anchor="start">Spike after a credential stuffing wave</text><line x1="60" y1="140" x2="500" y2="140" stroke="#1d1d1f" stroke-opacity=".06"/><line x1="60" y1="200" x2="500" y2="200" stroke="#1d1d1f" stroke-opacity=".06"/><line x1="60" y1="260" x2="500" y2="260" stroke="#1d1d1f" stroke-opacity=".06"/><line x1="60" y1="320" x2="500" y2="320" stroke="#1d1d1f" stroke-opacity=".06"/><path d="M60,300 L100,296 L140,300 L180,290 L220,296 L260,284 L300,270 L330,200 L360,120 L390,150 L420,230 L460,262 L500,270 L500,340 L60,340 Z" fill="url(#blue)" fill-opacity=".12" class="fade"/><path d="M60,300 L100,296 L140,300 L180,290 L220,296 L260,284 L300,270 L330,200 L360,120 L390,150 L420,230 L460,262 L500,270" fill="none" stroke="url(#blue)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="draw"/><line x1="60" y1="180" x2="500" y2="180" stroke="#c4302b" stroke-width="2" stroke-dasharray="6 6"/><text x="496" y="172" font-family="Inter, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#c4302b" text-anchor="end">threshold 40</text><circle cx="360" cy="120" r="16" fill="#c4302b" fill-opacity=".15" class="pulse"/><circle cx="360" cy="120" r="7" fill="#c4302b" stroke="#fff" stroke-width="3"/><rect x="60" y="360" width="108" height="22" rx="11" fill="#0066cc"/><text x="114.0" y="375" font-family="Inter, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">precision 87.5%</text><rect x="186" y="360" width="101" height="22" rx="11" fill="#eef4ff"/><text x="236.7" y="375" font-family="Inter, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0066cc" text-anchor="middle">8 alerts / day</text>
+</svg>

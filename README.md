@@ -39,6 +39,14 @@ python3 -m http.server 8000 --directory dist
 
 Then open `http://localhost:8000`.
 
+## Design decisions and validation
+
+- **Scenarios:** a five-account shared-device cluster, two account-takeover patterns and benign household/merchant lookalikes make a review queue more useful than a list of uniformly suspicious examples.
+- **Thresholds:** inspect `src/generate_lab.py`: the illustrative score combines device peers ×12, distinct inbound senders ×4, rapid outbound dollars /500 and new foreign-device dollars /350, capped at 100. The browser threshold selects accounts; this score is not a probability.
+- **Tradeoffs:** shared infrastructure and marketplace settlement can be legitimate. Tightening the threshold changes account-level capture and workload; it does not establish the cause of an incident. The sender feature is a maximum calendar-day count, not a true rolling 24-hour count.
+- **Validation:** tests cover seeded scenarios, integrity, threshold tradeoffs and export consistency. Outcomes are authored synthetic account labels. There is no independent production holdout, and the displayed control-health series is illustrative rather than operational telemetry.
+- **AI assistance:** AI coding tools assisted implementation and documentation. The public evidence of the work is the Python pipeline, SQL features, tests and demo. This section does not assign unverified personal authorship or employer results.
+
 ## Scope and limitations
 
 All people, devices, transactions and outcomes are made up. The scoring weights are illustrative, not calibrated probabilities. A shared device, fast timing or concentrated activity is a lead to check, not proof of fraud. Putting a control like this into production would also need real outcome data, fairness and privacy review, ongoing monitoring and change approval.

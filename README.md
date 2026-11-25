@@ -2,7 +2,7 @@
 
 ![Fraud Intelligence & Control Effectiveness Lab](docs/social-preview.jpg)
 
-**[▶ Open the live demo](https://brandoncandela.github.io/fraud-intelligence-control-lab/)** · [Portfolio](https://brandoncandela.github.io/) · [LinkedIn](https://www.linkedin.com/in/brandon-candela/) · Built by Brandon Candela, CAMS
+**[▶ Open the live demo](https://brandoncandela.github.io/fraud-intelligence-control-lab/)** · [Technical case study](https://brandoncandela.github.io/case-studies/fraud-intelligence-control-lab.html) · [Portfolio](https://brandoncandela.github.io/) · [LinkedIn](https://www.linkedin.com/in/brandon-candela/) · Built by Brandon Candela, CAMS
 
 > **What this shows:** Python and SQL feature engineering, control tuning with precision/recall tradeoffs, link analysis and an executive-ready recommendation.
 

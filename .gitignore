@@ -3,3 +3,10 @@ __pycache__/
 .DS_Store
 .sites-runtime/
 dist/data/lab.sqlite
+
+# Keep secrets and local environment files out of git
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem

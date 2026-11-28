@@ -1,5 +1,7 @@
 # Fraud Intelligence & Control Effectiveness Lab
 
+[![CI](https://github.com/brandoncandela/fraud-intelligence-control-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/brandoncandela/fraud-intelligence-control-lab/actions/workflows/ci.yml)
+
 ![Fraud Intelligence & Control Effectiveness Lab](docs/social-preview.jpg)
 
 **[▶ Open the live demo](https://brandoncandela.github.io/fraud-intelligence-control-lab/)** · [Technical case study](https://brandoncandela.github.io/case-studies/fraud-intelligence-control-lab.html) · [Portfolio](https://brandoncandela.github.io/) · [LinkedIn](https://www.linkedin.com/in/brandon-candela/) · Built by Brandon Candela, CAMS
